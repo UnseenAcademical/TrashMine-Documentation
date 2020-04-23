@@ -1,0 +1,41 @@
+Advanced Hook Launchers is a mod that helps you get around.
+
+From the mod page:
+
+Usage
+When launcher in main hand
+
+Launch hook - click the left mouse button
+Reel - press X When target is hooked
+Pull - hold down the right mouse button
+Loosen - hold down the left mouse button
+Unhook - press X
+Boost up - unhook (press X) while pulling
+Wall run - when a block is hooked, move forward while holding down the Ctrl (sprint) key
+Release - when you are hooked by other player, left-click while holding down the Shift (sneak) key (when ridding, just left-click)
+Smooth pulling/loosening - when a target is hooked, pull/loosen while holding down the Shift (sneak) key
+ 
+
+Features
+Pudge hook
+hooks entities and players
+dismounts riding entities
+auto-pulling
+medium distance
+high hook strength
+high fire resistance
+
+Spear hook
+long distance
+medium rope elasticity
+medium fire resistance
+makes damage to entities on hit
+can be used for climbing
+
+Web hook
+sticks to any surface
+long distance
+high rope elasticity
+low fire resistance
+usefull for climbing and jumping (running) off a cliff
+safe for other players (makes no damage)

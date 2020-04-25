@@ -9,7 +9,7 @@
 	botPresenceType = "PLAYING"
 	#Insert your Bot Token here!
 	#DO NOT SHARE IT WITH ANYONE!
-	botToken = "Njk2MTA5MTgzNDAxMTk3NjMx.Xoj8Og.km_9t6mzRuhJ6MK2tP4ZEL13rIs"
+	botToken =
 	#If you think the update check is annoying disable this
 	#Update checking is not yet implemented!!!
 	updateCheck = true

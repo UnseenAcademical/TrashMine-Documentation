@@ -1,0 +1,57 @@
+
+#The General Config. (This Category and the Category ores_standard are needed, all other Categories can be deleted.)
+[general]
+	#Overwrite Config on New Configuration Option available. If true it will backup and overwrite the Config File. If false it will only add the new Option.
+	#Default: true
+	OverWriteConfig = true
+	#The Level of The OreGen Enchant to get From the Recipe.
+	#Default: 1
+	#Range: 1 ~ 10
+	recipeOreGenLevel = 1
+	#Enables/Dissables the Jei Integration from this Mod.
+	#Default: true
+	enableJEIIntegration = true
+	#The max Level for the OreGen Enchantment.
+	#Default: 3
+	#Range: 1 ~ 10
+	maxOreGenLevel = 5
+
+[ores_nether]
+	#The Items when dropped should trigger this Ore List.
+	#Default: [minecraft:netherrack]
+	Ore0Drops = ["minecraft:netherrack"]
+	#Write in Every Line the OreDict name From a Item you want to get with the Enchant From all Blocks dropping the Items defined above.
+	#Default: [ores/draconium, ores/quartz, glowstone]
+	Ore1Types = ["ores/draconium", "ores/quartz", "glowstone"]
+	#Write the Ore Chances in the same sequence like the Ores. 1 = 100%, 100 = 1%.
+	#Default: [30, 24, 40]
+	Ore2Chances = ["30", "24", "40"]
+
+#The Standard Ores Configuration. (This Category and the Category general are needed, all other Categories can be deleted.)
+[ores_standard]
+	#The Items when dropped should trigger this Ore List.
+	#Default: [minecraft:cobblestone, minecraft:stone]
+	Ore0Drops = ["minecraft:cobblestone", "minecraft:stone"]
+	#Write in Every Line the OreDict name From a Item you want to get with the Enchant From all Blocks dropping the Items defined above.
+	#Default: [ores/draconium, ores/emerald, ores/sapphire, ores/diamond, ore/ruby, ores/topaz, ores/gold, ores/copper, ores/tin, ores/iron, ores/lapis, ores/redstone, ores/coal]
+	Ore1Types = ["ores/draconium", "ores/emerald", "ores/sapphire", "ores/diamond", "ore/ruby", "ores/topaz", "ores/gold", "ores/copper", "ores/tin", "ores/iron", "ores/lapis", "ores/redstone", "ores/coal"]
+	#Write the Ore Chances in the same sequence like the Ores. 1 = 100%, 100 = 1%.
+	#Default: [60, 40, 38, 36, 34, 32, 16, 14, 13, 12, 24, 20, 10]
+	Ore2Chances = ["60", "40", "38", "36", "34", "32", "16", "14", "13", "12", "24", "20", "10"]
+
+[ores_end]
+	#The Items when dropped should trigger this Ore List.
+	#Default: [minecraft:end_stone]
+	Ore0Drops = ["minecraft:end_stone"]
+	#Write in Every Line the OreDict name From a Item you want to get with the Enchant From all Blocks dropping the Items defined above.
+	#Default: [ores/draconium, ender_pearls]
+	Ore1Types = ["ores/draconium", "ender_pearls"]
+	#Write the Ore Chances in the same sequence like the Ores. 1 = 100%, 100 = 1%.
+	#Default: [16, 12]
+	Ore2Chances = ["16", "12"]
+	
+[ores_water]
+    Ore0Drops = ["minecraft:prismarine","minecraft:prismarine_bricks","minecraft:dark_prismarine","quark:elder_prismarine","quark:elder_prismarine_bricks","quark:dark_elder_prismarine"]
+	Ore1Types = ["aquaculture:neptunium_nugget"]
+	Ore2Chances = ["10"]
+

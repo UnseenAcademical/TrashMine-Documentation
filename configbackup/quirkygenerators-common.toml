@@ -1,0 +1,31 @@
+
+#Gravity Generator
+[gravity]
+	#Default: 100
+	#Range: > 1
+	energyPerTick = 200
+	#Default: 1,000,000 (1M)
+	#Range: > 1
+	energyCapacity = 1000000
+
+#Root Generator
+[root]
+	#Default: 200
+	#Range: > 1
+	energyPerTick = 200
+	#Default: 200
+	#Range: > 1
+	ticksPerOperation = 200
+	#Default: 1,000,000 (1M)
+	#Range: > 1
+	energyCapacity = 1000000
+
+#Butcher Generator
+[butcher]
+	#Default: 1,000,000 (1M
+	#Range: > 1
+	energyCapacity = 1000000
+	#Default: 50,000
+	#Range: > 1
+	energyPerAnimal = 50000
+

@@ -1,0 +1,42 @@
+
+#biome border viewer client settings
+[client]
+	#The red value of the line's color when the 2 biomes have different temperatures.
+	#Range: 0 ~ 255
+	lineBR = 0
+	#The blue value of the line's color when the 2 biomes have different temperatures.
+	#Range: 0 ~ 255
+	lineBB = 0
+	#The red value of the line's color when the 2 biomes have the same temperature.
+	#Range: 0 ~ 255
+	lineAR = 0
+	#The blue value of the line's color when the 2 biomes have the same temperature.
+	#Range: 0 ~ 255
+	lineAB = 0
+	#How far from the player in all directions to show the border.
+	#Makes a square around the player.
+	#!High values increase lag alot!
+	#Range: 2 ~ 128
+	viewRange = 16
+	#The height offset from the player's feet that the lines are drawn at.
+	#Range: -256.0 ~ 256.0
+	playerHeightOffset = 1.0
+	#The height offset from the terrain that the lines are drawn at.
+	#Range: -256.0 ~ 256.0
+	terrainHeightOffset = 1.0
+	#What the reference point for the border-line height is.
+	#Allowed Values: player, terrain, playerThenTerrain, fixed
+	baseLineHeight = "terrain"
+	#The green value of the line's color when the 2 biomes have the same temperature.
+	#Range: 0 ~ 255
+	lineAG = 255
+	#The height that the lines are drawn at.
+	#Range: 0.0 ~ 256.0
+	fixedHeight = 64.0
+	#The width of the line
+	#Range: 0.01 ~ 0.4
+	lineWidth = 0.0625
+	#The green value of the line's color when the 2 biomes have different temperatures.
+	#Range: 0 ~ 255
+	lineBG = 255
+

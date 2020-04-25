@@ -1,0 +1,5 @@
+#With this you can't see portal-in-portal
+compatibility_render_mode = false
+#With this the performance may drop
+do_check_gl_error = false
+

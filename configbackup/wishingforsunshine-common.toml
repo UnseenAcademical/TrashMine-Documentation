@@ -1,0 +1,15 @@
+#Item to trigger the rain effect (registry name, leave blank for no default)
+rain = "minecraft:blue_orchid"
+#Item to trigger the sunrise effect (registry name, leave blank for no default)
+sunrise = "minecraft:gold_ingot"
+#Item to trigger the midday effect (registry name, leave blank for no default)
+midday = ""
+#Item to trigger the midnight effect (registry name, leave blank for no default)
+midnight = ""
+#Item to trigger the sunshine effect (registry name, leave blank for no default)
+sunshine = "minecraft:sunflower"
+#Item to trigger the sunset effect (registry name, leave blank for no default)
+sunset = "minecraft:iron_ingot"
+#Item to trigger the thunder effect (registry name, leave blank for no default)
+thunder = "minecraft:copper_ingot"
+

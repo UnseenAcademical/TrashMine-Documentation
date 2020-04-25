@@ -1,0 +1,8 @@
+
+#Debugging settings
+[Debugging]
+	#Enable general debug features, display extra debug info
+	debug = false
+	#Make repairing blocks visible
+	showRepairingBlocks = false
+

@@ -24,9 +24,9 @@
 [webhook]
 	#The avatar to be used for server messages
 	serverAvatar = "https://raw.githubusercontent.com/ErdbeerbaerLP/Discord-Chat-Integration/master/images/srv.png"
-	#Wether or not the bot should use a webhook (it will create one)
+	#Webhook server name
 	serverName = "Server"
-	#Wether or not the bot should use a webhook (it will create one)
+	#Whether or not the bot should use a webhook (it will create one)
 	enableWebhook = false
 
 #Customize messages of this mod
@@ -35,7 +35,7 @@
 	#PLACEHOLDERS:
 	#%player% - The player´s name
 	#%msg% - The chat message
-	msgChatMessage = "**%player%**  %msg%"
+	msgChatMessage = "**%player%**   %msg%"
 	#PLACEHOLDERS:
 	#%player% - The player´s name
 	msgPlayerLeave = "`%player% left`"
@@ -51,7 +51,7 @@
 	msgServerStarting = "Server Starting..."
 	#The message to print to discord when it was possible to detect a server crash
 	#Will also be used in the channel description
-	msgServerCrash = "```Server Crash Detected :thinking:```"
+	msgServerCrash = "```Server go boom :(```"
 	#PLACEHOLDERS:
 	#%player% - The player´s name
 	#NOTE: This is currently not implemented because mixins are not working in 1.15!
@@ -77,7 +77,7 @@
 	#For more help with the formatting visit https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/time/DurationFormatUtils.html
 	uptimeFormat = "dd 'days' HH 'hours' mm 'minutes' ss 'seconds'"
 	#This message will be sent when the server was stopped
-	msgServerStopped = "```Server Stopped!```"
+	msgServerStopped = "```Server Stopped.```"
 	#This is what will be displayed ingame when someone types into the bot´s channel
 	#PLACEHOLDERS:
 	#%user% - The username
@@ -91,7 +91,7 @@
 	#Should /me output be sent to discord?
 	enableMeOutput = true
 	#Message sent when unignoring Discord messages
-	msgIgnoreUnignore = "You are no longer ignoring Discord messages!"
+	msgIgnoreUnignore = "You are no longer ignoring Discord messages."
 	#Should tamed entity death be visible in discord?
 	tamedDeathEnabled = false
 	#PLACEHOLDERS:
@@ -102,9 +102,9 @@
 	#%player% - The player´s name
 	#%name% - The advancement name
 	#%desc% - The advancement description
-	msgAdvancement = "`%player% just gained the advancement \"%name%\": %desc%`"
+	msgAdvancement = "`%player% just gained the advancement \"%name%\" -- %desc%`"
 	#Message sent when ignoring Discord messages
-	msgIgnoreIgnore = "You are now ignoring Discord messages!"
+	msgIgnoreIgnore = "You are now ignoring Discord messages."
 
 #Configuration for built-in discord commands
 [dc-commands]
